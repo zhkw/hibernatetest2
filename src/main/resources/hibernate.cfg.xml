@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+
+        <property name="hibernate.connection.url">jdbc:oracle:thin:@//10.10.6.46:1521/SIT</property>
+        <property name="hibernate.connection.username">apps</property>
+        <property name="hibernate.connection.password">apps</property>
+        <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+        <property name="hibernate.default_schema">CUX</property>
+
+        <property name="show_sql">true</property>
+
+        <!-- JDBC connection pool (use the built-in) -->
+        <property name="connection.pool_size">1</property>
+        <property name="current_session_context_class">thread</property>
+
+        <mapping resource="com/mastertheboss/domain/Student.hbm.xml" />
+        <mapping resource="com/mastertheboss/domain/Address.hbm.xml" />
+
+    </session-factory>
+</hibernate-configuration>

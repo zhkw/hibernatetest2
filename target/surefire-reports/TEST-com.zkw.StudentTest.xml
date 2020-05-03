@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.zkw.StudentTest" time="8.733" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\ideaworkspace\hibernatetest2\target\test-classes;D:\ideaworkspace\hibernatetest2\target\classes;D:\mavenrepo\org\hibernate\hibernate-core\4.2.4.Final\hibernate-core-4.2.4.Final.jar;D:\mavenrepo\antlr\antlr\2.7.7\antlr-2.7.7.jar;D:\mavenrepo\org\jboss\logging\jboss-logging\3.1.0.GA\jboss-logging-3.1.0.GA.jar;D:\mavenrepo\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\mavenrepo\org\jboss\spec\javax\transaction\jboss-transaction-api_1.1_spec\1.0.1.Final\jboss-transaction-api_1.1_spec-1.0.1.Final.jar;D:\mavenrepo\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.1.Final\hibernate-jpa-2.0-api-1.0.1.Final.jar;D:\mavenrepo\org\hibernate\common\hibernate-commons-annotations\4.0.2.Final\hibernate-commons-annotations-4.0.2.Final.jar;D:\mavenrepo\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;D:\mavenrepo\com\oracle\ojdbc6\11.2.0.4\ojdbc6-11.2.0.4.jar;D:\mavenrepo\junit\junit\4.11\junit-4.11.jar;D:\mavenrepo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_25\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\zhou\AppData\Local\Temp\surefire4115769329390323823\surefirebooter4016025456559850288.jar C:\Users\zhou\AppData\Local\Temp\surefire4115769329390323823 2020-05-02T22-10-53_753-jvmRun1 surefire4346623603495468916tmp surefire_01360372995514548338tmp"/>
+    <property name="surefire.test.class.path" value="D:\ideaworkspace\hibernatetest2\target\test-classes;D:\ideaworkspace\hibernatetest2\target\classes;D:\mavenrepo\org\hibernate\hibernate-core\4.2.4.Final\hibernate-core-4.2.4.Final.jar;D:\mavenrepo\antlr\antlr\2.7.7\antlr-2.7.7.jar;D:\mavenrepo\org\jboss\logging\jboss-logging\3.1.0.GA\jboss-logging-3.1.0.GA.jar;D:\mavenrepo\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\mavenrepo\org\jboss\spec\javax\transaction\jboss-transaction-api_1.1_spec\1.0.1.Final\jboss-transaction-api_1.1_spec-1.0.1.Final.jar;D:\mavenrepo\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.1.Final\hibernate-jpa-2.0-api-1.0.1.Final.jar;D:\mavenrepo\org\hibernate\common\hibernate-commons-annotations\4.0.2.Final\hibernate-commons-annotations-4.0.2.Final.jar;D:\mavenrepo\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;D:\mavenrepo\com\oracle\ojdbc6\11.2.0.4\ojdbc6-11.2.0.4.jar;D:\mavenrepo\junit\junit\4.11\junit-4.11.jar;D:\mavenrepo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\zhou"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_25\jre"/>
+    <property name="basedir" value="D:\ideaworkspace\hibernatetest2"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\zhou\AppData\Local\Temp\surefire4115769329390323823\surefirebooter4016025456559850288.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_25\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_25\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_25\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_25\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_25\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_25\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_25\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_25\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="java.runtime.version" value="1.8.0_25-b18"/>
+    <property name="user.name" value="zhou"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_25\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="localRepository" value="D:\mavenrepo"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\zhou\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_25"/>
+    <property name="user.dir" value="D:\ideaworkspace\hibernatetest2"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="idea.version2019.3.3" value="true"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_25\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\apache-maven-3.5.0\bin;C:\Program Files (x86)\Java\jdk1.7.0_80\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\Program Files\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.25-b02"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testSaveStudent" classname="com.zkw.StudentTest" time="8.543">
+    <error message="could not execute statement" type="org.hibernate.exception.ConstraintViolationException">org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.zkw.StudentTest.destory(StudentTest.java:30)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: 
+ORA-00001: 违反唯一约束条件 (CUX.SYS_C00314299)
+
+	at com.zkw.StudentTest.destory(StudentTest.java:30)
+</error>
+    <system-out><![CDATA[Hibernate: insert into CUX.CUX_STUDENT (NAME, ID) values (?, ?)
+]]></system-out>
+    <system-err><![CDATA[五月 02, 2020 10:10:58 下午 org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+五月 02, 2020 10:10:59 下午 org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.4.Final}
+五月 02, 2020 10:10:59 下午 org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+五月 02, 2020 10:10:59 下午 org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+五月 02, 2020 10:10:59 下午 org.hibernate.cfg.Configuration configure
+INFO: HHH000043: Configuring from resource: /hibernate.cfg.xml
+五月 02, 2020 10:10:59 下午 org.hibernate.cfg.Configuration getConfigurationInputStream
+INFO: HHH000040: Configuration resource: /hibernate.cfg.xml
+五月 02, 2020 10:10:59 下午 org.hibernate.internal.util.xml.DTDEntityResolver resolveEntity
+WARN: HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+五月 02, 2020 10:10:59 下午 org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: com/mastertheboss/domain/Student.hbm.xml
+五月 02, 2020 10:10:59 下午 org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+五月 02, 2020 10:10:59 下午 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000402: Using Hibernate built-in connection pool (not for production use!)
+五月 02, 2020 10:11:00 下午 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000115: Hibernate connection pool size: 1
+五月 02, 2020 10:11:00 下午 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000006: Autocommit mode: false
+五月 02, 2020 10:11:00 下午 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//10.10.6.46:1521/SIT]
+五月 02, 2020 10:11:00 下午 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000046: Connection properties: {user=apps, password=****}
+五月 02, 2020 10:11:05 下午 org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+五月 02, 2020 10:11:05 下午 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+五月 02, 2020 10:11:05 下午 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+五月 02, 2020 10:11:06 下午 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 1, SQLState: 23000
+五月 02, 2020 10:11:06 下午 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: ORA-00001: 违反唯一约束条件 (CUX.SYS_C00314299)
+
+]]></system-err>
+  </testcase>
+</testsuite>

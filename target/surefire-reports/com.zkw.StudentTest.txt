@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.zkw.StudentTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.733 s <<< FAILURE! - in com.zkw.StudentTest
+testSaveStudent(com.zkw.StudentTest)  Time elapsed: 8.543 s  <<< ERROR!
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.zkw.StudentTest.destory(StudentTest.java:30)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: 
+ORA-00001: 违反唯一约束条件 (CUX.SYS_C00314299)
+
+	at com.zkw.StudentTest.destory(StudentTest.java:30)
+

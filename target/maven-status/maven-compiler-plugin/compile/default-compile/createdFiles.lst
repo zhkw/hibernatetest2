@@ -1,0 +1,4 @@
+com\mastertheboss\util\HibernateUtil.class
+com\mastertheboss\domain\Employee.class
+com\mastertheboss\domain\Department.class
+com\mastertheboss\hibernate\HibernateTest.class
